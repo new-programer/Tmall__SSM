@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+   <!-- 配置别名-->
+    <typeAliases>
+        <package name="com.nanhua.Tmall.pojo" />
+    </typeAliases>
+    <!--配置mapper动态代理位置(即CategoryMapper.xml文件的路径)-->
+    <mappers>
+       <!-- <package name="com.nanhua.Tmall.resources.mapper" />-->
+        <mapper resource="resources/mapper/CategoryMapper.xml" />
+    </mappers>
+
+</configuration>
